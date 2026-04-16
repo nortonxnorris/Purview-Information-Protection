@@ -19,7 +19,7 @@ Next, take into consideration the volume of matches you want to prioritize:
 - **Strict:** I am interested in any number of credentials that are externally exposed
 - **Volume:** I am interested if we see 10 or more credentials in a file that is externally shared
 
-## Step 3 - Consider first looking at data shared externally
+## Step 3 - Focus on data shared externally
 The Data Explorer gives you a count of the matches in files and email. This may be an overwhelming place to start.
 
 Instead, consider first looking for any matches, where this content is shared externally.
