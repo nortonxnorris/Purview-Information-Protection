@@ -1,12 +1,12 @@
 # Strategy for leveraging built-in classifiers
 
 A key decision with classifiers in Microsoft Purview, which type best fits your needs:
-Are you looking at pattern or keyword based matches, you would look at Sensitive Info types.
-You may be interested in files that match a standard template, consider Document Fingerprinting.
-You may be interested in file matches based on machine learning, consider Trainable classifiers.
-You may be interested in file matches against a table of data supplied to Purview, consider Exact Data Match
+- Are you looking at pattern or keyword based matches, you would look at Sensitive Info types.
+- You may be interested in files that match a standard template, consider Document Fingerprinting.
+- You may be interested in file matches based on machine learning, consider Trainable classifiers.
+- You may be interested in file matches against a table of data supplied to Purview, consider Exact Data Match ![Guide](/Pages/ExactDataMatch.md)
 
-- Let's focus on the **Sensitive Info Types (SIT)** based on patterns and keywords.
+Let's focus on the **Sensitive Info Types (SIT)** based on patterns and keywords.
 
 ## Step 1 - Relevant Classifiers
 Microsoft Purview has **300+ built in classifiers** as of today. However, not all classifiers may be relevant to you.
