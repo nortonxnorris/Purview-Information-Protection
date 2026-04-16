@@ -222,4 +222,3 @@ GDPR does not prohibit insider risk monitoring—it demands that it be:
 - Transparent  
 
 If you design for those principles from the start, Insider Risk Management becomes not just viable—but defensible.
-```
