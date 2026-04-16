@@ -39,7 +39,8 @@ Either start from scratch, or, I would receommend creating a copy of a built-in 
 For reference: https://learn.microsoft.com/en-us/purview/sit-create-a-custom-sensitive-information-type
 
 ## Step 5 - Update and iterate
-Now that you have visibility into externally shared sensitive content, you could pivot your strategy: If you created a custom SIT in Step 4, Update your DLP policy to include the new custom SIT
+Now that you have visibility into externally shared sensitive content, you could pivot your strategy: If you created a custom SIT in Step 4, update your DLP policy to include the new custom SIT.
+You may also want to start a parallel effort looking for sensitive data shared within your tenant.
 
 
 ## Final Thoughts
