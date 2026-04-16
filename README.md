@@ -5,8 +5,10 @@
 Microsoft Purview Information Protection helps organizations discover, classify, label, and safeguard sensitive data across Microsoft 365 environments. It enables consistent protection through sensitivity labels that apply encryption, access controls, and usage restrictions—ensuring data remains secure and compliant wherever it travels, including across users, devices, apps, and external collaborations.
 
 **Links:**
-- [DSPM](./Pages/DSPM.md)
+- [Pages](./Pages/)
+- [Blog Posts](./Blog/)
 
 ## Key Topics
-- DSPM
-- Addressing oversharing in M365
+- Data Classification
+- Sensitivity Labels
+- Data Loss Prevention
