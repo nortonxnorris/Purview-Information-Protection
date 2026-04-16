@@ -4,7 +4,7 @@ A key decision with classifiers in Microsoft Purview, which type best fits your 
 - Are you looking at pattern or keyword based matches, you would look at Sensitive Info types.
 - You may be interested in files that match a standard template, consider Document Fingerprinting.
 - You may be interested in file matches based on machine learning, consider Trainable classifiers.
-- You may be interested in file matches against a table of data supplied to Purview, consider Exact Data Match ![Guide](Pages/ExactDataMatch.md)
+- You may be interested in file matches against a table of data supplied to Purview, consider Exact Data Match :  [Guide](Pages/ExactDataMatch.md)
 
 Let's focus on the **Sensitive Info Types (SIT)** based on patterns and keywords.
 
