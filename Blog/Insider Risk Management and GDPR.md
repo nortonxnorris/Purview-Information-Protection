@@ -1,4 +1,3 @@
-```markdown
 # Designing a GDPR-Compliant Insider Risk Management Architecture with Microsoft Purview
 
 Organizations operating under the General Data Protection Regulation (GDPR) face a difficult balancing act: protecting sensitive data from insider threats while respecting employee privacy rights.
