@@ -1,10 +1,11 @@
 # Strategy for leveraging built-in classifiers
 
-Corporate espionage is no longer the stuff of spy novels; it is an everyday concern for modern enterprises. Insider Risk Management (IRM) in Microsoft Purview helps you spot suspicious activity quickly, curbing data theft or sabotage before it damages the business. Below is a practical walkthrough for turning IRM insights into action.
+A key decision with classifiers in Microsoft Purview, which type best fits your needs:
+Are you looking at pattern or keyword based matches, you would look at Sensitive Info types.
+You may be interested in files that match a standard template, consider Document Fingerprinting.
+You may be interested in file matches based on machine learning, consider Trainable classifiers.
+You may be interested in file matches against a table of data supplied to Purview, consider Exact Data Match
 
-## Why Insider Risk Management?
-- IRM ships with Microsoft 365 E5 and Compliance E5, letting you leverage existing licensing.
-- It ingests signals from Microsoft DLP, Communication Compliance, and other Purview solutions for broader context.
 - Let's focus on the **Sensitive Info Types (SIT)** based on patterns and keywords.
 
 ## Step 1 - Relevant Classifiers
@@ -28,7 +29,7 @@ We can do this using a DLP policy:
 3. From step 2, you may want to adjust the matches: A: Default: 1 to Any, OR B: 10 to Any
 4. Do not configure any actions, or user notifications, or incident reports at this time
 5. Run the policy in simulation mode
-6. DLP **Activity Explorer**: Wait till you start seeing policy matches in the Activity Explorer, and start investigating at the policy matches.
+6. DLP **Activity Explorer**: Wait till you start seeing policy matches in the Activity Explorer, and start investigating the policy matches.
 This stage is important, as it gives you visibility to potential true matches that should be remediated immediately.
 
 ## Step 4 - Built-in versus Custom
@@ -42,4 +43,4 @@ Now that you have visibility into externally shared sensitive content, you could
 
 
 ## Final Thoughts
-Start early, iterate often, and let analytics guide you. Combining IRM with DLP, Communications Compliance, and HR data delivers a comprehensive insider risk program without bolting together disparate tools.
+It is not feasible to validate all built-in classifiers, however, you now have a strategy to prioritize, modify and implement a classifier that best meets your needs.
